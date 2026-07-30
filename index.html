@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="es-UY">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Singular — Espacio Clínico para Adicciones | Montevideo</title>
+<meta name="description" content="Atención ambulatoria e individualizada para personas que reconocen una adicción y buscan ayuda. Psicólogo Diego Zapata. Presencial en Montevideo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="brand" href="index.html">
+      <img src="logo-nav.png" alt="Singular — Espacio Clínico para Adicciones">
+    </a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#que-ofrece">Qué ofrecemos</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <button class="burger" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="Abrir menú">☰</button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-top">
+    <span class="brand-name" style="color:#fff;">Singular</span>
+    <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')" aria-label="Cerrar menú">✕</button>
+  </div>
+  <a href="#que-ofrece" onclick="document.getElementById('mobileMenu').classList.remove('open')">Qué ofrecemos</a>
+  <a href="#como-funciona" onclick="document.getElementById('mobileMenu').classList.remove('open')">Cómo funciona</a>
+  <a href="quienes-somos.html">Quiénes somos</a>
+  <a href="blog.html">Blog</a>
+  <a href="#contacto" onclick="document.getElementById('mobileMenu').classList.remove('open')">Contacto</a>
+  <a class="btn btn-whatsapp" style="margin-top:10px;" href="https://wa.me/59899800291?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20tratamiento." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-bg">
+    <img src="image banner hero.jpg" alt="Espacio Singular — acompañamiento cercano en el tratamiento de adicciones">
+  </div>
+  <div class="wrap">
+    <div class="hero-content">
+      <h1 class="quote">"No hay un tratamiento único para las adicciones. Hay <span>un tratamiento único para cada persona.</span>"</h1>
+      <p class="hero-sub">Un espacio clínico donde se puede hablar libremente, desde la escucha atenta y la singularidad de cada caso. Pensado para adultos que reconocen su problemática y buscan ayuda.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-whatsapp" href="https://wa.me/59899800291?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20tratamiento." target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.5.1-1.5-.6-2.5-1.4-3.4-3.1-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 5 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C3.9 14.9 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <a class="btn btn-outline" href="#contacto">Dejar mis datos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ ESTE ESPACIO -->
+<section id="por-que" style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">Por qué este espacio</div>
+      <h2>Lo que hace singular a este tratamiento</h2>
+    </div>
+    <div class="why-list">
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 14a4 4 0 1 1 3.46-6H21v4h-2v3h-3v-3h-2.54A4 4 0 0 1 7 14zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></span>
+        <div><h3>Escucha singular</h3><p>Cada tratamiento se construye a partir de la demanda y la historia particular de cada persona, no de un protocolo estándar.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 5v4h4v2h-4v4h-2v-4H7v-2h4V7h2z"/></svg></span>
+        <div><h3>Respaldo psiquiátrico integrado</h3><p>El seguimiento clínico se articula con respaldo psiquiátrico dentro del mismo espacio, sin derivaciones a ciegas.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M10.5 13.5a3 3 0 0 1 0-4.24l3-3a3 3 0 1 1 4.24 4.24l-1.5 1.5a1 1 0 0 1-1.42-1.42l1.5-1.5a1 1 0 1 0-1.4-1.4l-3 3a1 1 0 0 0 0 1.4 1 1 0 0 1-1.42 1.42zm3-3a3 3 0 0 1 0 4.24l-3 3a3 3 0 1 1-4.24-4.24l1.5-1.5a1 1 0 1 1 1.42 1.42l-1.5 1.5a1 1 0 1 0 1.4 1.4l3-3a1 1 0 0 0 0-1.4 1 1 0 0 1 1.42-1.42z"/></svg></span>
+        <div><h3>Complementario, no competitivo</h3><p>Trabajamos en articulación con internación, comunidades terapéuticas y otros recursos cuando el caso lo indica.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a4 4 0 0 0-4 4v3H7a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a4 4 0 0 0-4-4zm-2 7V6a2 2 0 1 1 4 0v3h-4zm2 4a2 2 0 0 1 1 3.73V19a1 1 0 1 1-2 0v-2.27A2 2 0 0 1 12 13z"/></svg></span>
+        <div><h3>Confidencialidad</h3><p>Un espacio resguardado y sin juicio, pensado para hablar con libertad desde el primer encuentro.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 2h2v2h6V2h2v2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2V2zm12 8H5v10h14V10zM5 6v2h14V6H5z"/></svg></span>
+        <div><h3>Seguimiento sostenido</h3><p>El proceso se acompaña en el tiempo — no se limita a una consulta puntual ni a una receta única.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg></span>
+        <div><h3>Presencial en Montevideo</h3><p>Atención cara a cara, en un espacio físico pensado para sostener el encuentro clínico.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUÉ SE OFRECE -->
+<section id="que-ofrece">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Qué se ofrece</div>
+      <h2>Atención ambulatoria, pensada caso a caso</h2>
+    </div>
+    <div class="offer-card">
+      Atención ambulatoria para personas que creen tener una adicción. Un espacio donde se puede hablar libremente, desde la escucha atenta y la singularidad de cada caso.
+    </div>
+  </div>
+</section>
+
+<!-- A QUIÉN VA DIRIGIDO -->
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">A quién va dirigido</div>
+      <h2>El primer paso lo da la propia persona</h2>
+    </div>
+    <div class="audience-box">
+      <h3>Adultos que reconocen su problemática y buscan ayuda</h3>
+      <p>La demanda del propio sujeto es el punto de partida de cualquier tratamiento. Sin esa demanda no hay proceso posible.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="como-funciona">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">Cómo funciona</div>
+      <h2>Un proceso construido a medida</h2>
+    </div>
+    <div class="process-list">
+      <div class="process-item"><span class="process-num">01</span><p>Recepción y evaluación de cada caso para construir un tratamiento a medida</p></div>
+      <div class="process-item"><span class="process-num">02</span><p>Seguimiento sostenido en el tiempo</p></div>
+      <div class="process-item"><span class="process-num">03</span><p>Respaldo psiquiátrico integrado al espacio</p></div>
+      <div class="process-item"><span class="process-num">04</span><p>Articulación con internación, grupos u otros recursos cuando el caso lo indica</p></div>
+      <div class="process-item"><span class="process-num">05</span><p>Presencial en Montevideo</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPLEMENTARIO -->
+<section class="comp-section">
+  <div class="wrap">
+    <div class="eyebrow">Complementario, no competitivo</div>
+    <h2>Una mirada clínica individualizada, no un reemplazo</h2>
+    <p>Este espacio no reemplaza a las comunidades terapéuticas ni a los centros residenciales. Propone una mirada clínica individualizada sobre la adicción — antes de la internación, después de ella, o como alternativa cuando no es lo indicado. Las derivaciones en ambas direcciones son parte del modelo.</p>
+    <div class="comp-timeline">
+      <span>Antes de la internación</span><span class="arrow">→</span>
+      <span>Como alternativa a la internación</span><span class="arrow">→</span>
+      <span>Después de la internación</span>
+    </div>
+  </div>
+</section>
+
+<!-- PARA PENSAR -->
+<section>
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">Para pensar</div>
+      <h2>Algunas ideas que guían este trabajo</h2>
+    </div>
+    <div class="reflect-grid">
+      <div class="reflect-card dark">
+        <h3>"La adicción fue lo que te trajo hasta acá. Pero tu historia empezó mucho antes."</h3>
+        <p>Cuando alguien llega a pedir ayuda, suele identificarse completamente con su adicción, como si eso fuera todo lo que es. Entender cómo se fue construyendo esa historia es parte del trabajo.</p>
+      </div>
+      <div class="reflect-card light">
+        <h3>"Primero nos constituimos como sujetos. Después, a veces, aparece una adicción."</h3>
+        <p>La adicción no define a una persona. Es la persona la que define su adicción. Eso es lo que guía el trabajo acá.</p>
+      </div>
+      <div class="reflect-card dark">
+        <h3>"Pedir ayuda no es reconocer una derrota. Es animarse a ver qué hay detrás."</h3>
+        <p>El primer paso no es dejar, ni prometerse nada. Es animarse a ver qué hay detrás de lo que nos pasa. Para eso estamos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact-section" id="contacto">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">Contacto</div>
+      <h2>Escribinos, sin compromiso</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-card">
+        <div>
+          <h3>Espacio Singular</h3>
+          <p>Respondemos de forma confidencial. Si preferís, escribinos directo por WhatsApp y coordinamos una primera conversación.</p>
+        </div>
+        <a class="btn btn-whatsapp btn-block" href="https://wa.me/59899800291?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20tratamiento." target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.5.1-1.5-.6-2.5-1.4-3.4-3.1-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 5 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C3.9 14.9 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5z"/></svg>
+          099 800 291
+        </a>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div class="info-line"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.4 2 7.6 6 7.6-6H4.4zM20 8.2l-7.4 5.8a1 1 0 0 1-1.2 0L4 8.2V17h16V8.2z"/></svg></span> <a href="mailto:psic.diegozapata@gmail.com">psic.diegozapata@gmail.com</a></div>
+          <div class="info-line"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.36 2.3.56 3.6.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.56 3.6a1 1 0 0 1-.25 1l-2.2 2.2z"/></svg></span> <a href="tel:+59899800291">099 800 291</a></div>
+          <div class="info-line"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg></span> Montevideo, Uruguay — Presencial</div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/psic.diegozapata@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Nueva consulta desde la web de Singular">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="field">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="09X XXX XXX" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com">
+        </div>
+        <div class="field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Contanos brevemente en qué podemos ayudarte"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-whatsapp" onclick="enviarPorWhatsapp()">Enviar por WhatsApp</button>
+          <button type="submit" class="btn btn-outline">Enviar por email</button>
+        </div>
+        <p class="form-msg" id="formMsg"></p>
+        <p class="privacy-note">Tus datos se usan únicamente para responder tu consulta. No compartimos información con terceros.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<a class="float-wa" href="https://wa.me/59899800291?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20tratamiento." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.5.1-1.5-.6-2.5-1.4-3.4-3.1-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 5 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.3 4.9 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C3.9 14.9 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5z"/></svg>
+</a>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div>
+          <div class="footer-brand-name">Singular</div>
+          <div style="font-size:.78rem;color:#8a97a2;">Espacio Clínico para Adicciones</div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#que-ofrece">Qué ofrecemos</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a href="#contacto">Contacto</a>
+        <a class="footer-social" href="https://www.instagram.com/psic.diegozapata/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.9.24 2.4.4.6.24 1 .5 1.5 1 .4.4.7.9 1 1.5.16.5.34 1.2.4 2.4.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.2-.24 1.9-.4 2.4-.24.6-.5 1-1 1.5-.4.4-.9.7-1.5 1-.5.16-1.2.34-2.4.4-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.06-1.9-.24-2.4-.4-.6-.24-1-.5-1.5-1-.4-.4-.7-.9-1-1.5-.16-.5-.34-1.2-.4-2.4-.06-1.3-.07-1.7-.07-4.9s0-3.6.07-4.9c.06-1.2.24-1.9.4-2.4.24-.6.5-1 1-1.5.4-.4.9-.7 1.5-1 .5-.16 1.2-.34 2.4-.4 1.3-.06 1.7-.07 4.9-.07M12 0C8.7 0 8.3 0 7 .07c-1.3.06-2.2.27-3 .58-.8.32-1.5.75-2.2 1.42C1.1 2.75.68 3.45.36 4.25c-.3.8-.5 1.7-.57 3C-.28 8.5-.29 8.9-.29 12s0 3.5.07 4.75c.06 1.3.27 2.2.58 3 .32.8.75 1.5 1.42 2.2.67.67 1.4 1.1 2.2 1.42.8.3 1.7.5 3 .57C8.3 24 8.7 24 12 24s3.7 0 4.95-.07c1.3-.06 2.2-.27 3-.58.8-.32 1.5-.75 2.2-1.42.67-.67 1.1-1.4 1.42-2.2.3-.8.5-1.7.57-3C24 15.7 24 15.3 24 12s0-3.7-.07-4.95c-.06-1.3-.27-2.2-.58-3-.32-.8-.75-1.5-1.42-2.2C21.25 1.1 20.55.68 19.75.36c-.8-.3-1.7-.5-3-.57C15.7 0 15.3 0 12 0z"/><path d="M12 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/><circle cx="18.4" cy="5.6" r="1.44"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Singular — Espacio Clínico para Adicciones. Montevideo, Uruguay.</span>
+      <span>psic.diegozapata@gmail.com · 099 800 291</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function enviarPorWhatsapp(){
+    var nombre = document.getElementById('nombre').value.trim();
+    var telefono = document.getElementById('telefono').value.trim();
+    var mensaje = document.getElementById('mensaje').value.trim();
+
+    if(!nombre || !telefono){
+      var msg = document.getElementById('formMsg');
+      msg.style.display='block';
+      msg.style.color='#c0392b';
+      msg.textContent='Por favor completá al menos tu nombre y teléfono.';
+      return;
+    }
+
+    var texto = 'Hola, soy ' + nombre + '. Mi teléfono es ' + telefono + '.';
+    if(mensaje){ texto += ' ' + mensaje; }
+
+    var url = 'https://wa.me/59899800291?text=' + encodeURIComponent(texto);
+    window.open(url, '_blank');
+  }
+
+  document.getElementById('contactForm').addEventListener('submit', function(){
+    var msg = document.getElementById('formMsg');
+    msg.style.display='block';
+    msg.style.color='#374C30';
+    msg.textContent='Enviando tu consulta...';
+  });
+</script>
+
+</body>
+</html>
