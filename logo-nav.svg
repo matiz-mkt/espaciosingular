@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 100" width="560" height="100" role="img" aria-label="Singular">
+<title>Singular</title>
+  <clipPath id="c9"><circle cx="50" cy="50" r="50"/></clipPath>
+  <circle cx="50" cy="50" r="50" fill="#3D4F5C"/>
+  <g clip-path="url(#c9)">
+    <path d="M 22.855 62.773 A 30.0 30.0 0 1 0 22.855 37.227" fill="none" stroke="#C4956A" stroke-width="8"/>
+    <line x1="0" y1="50" x2="43" y2="50" stroke="#C4956A" stroke-width="8"/>
+  </g>
+  <circle cx="50" cy="50" r="7.5" fill="#F2E8D9"/>
+  <text x="140" y="72" font-family="Lora, Georgia, serif" font-size="78" fill="#2A3740">Singular</text>
+  <text x="140" y="96" font-family="Outfit, Helvetica, sans-serif" font-weight="300" font-size="15" letter-spacing="4.4" fill="#8A7A66">ESPACIO CLÍNICO PARA ADICCIONES</text>
+</svg>
